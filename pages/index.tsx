@@ -8,7 +8,7 @@ const Home = ({ homepage }: { homepage: any }) => {
     <div>
       <Head>
         <title>Next Blog</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.FAVICON}/favicon.ico`} />
       </Head>
 
       <main>
