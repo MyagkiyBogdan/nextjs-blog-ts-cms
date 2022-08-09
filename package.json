@@ -7,13 +7,20 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "contentful-typescript-codegen": "contentful-typescript-codegen --output @types/contentful.d.ts"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "bootstrap": "^5.2.0",
     "contentful": "^9.1.33",
+    "contentful-management": "^10.10.0",
+    "contentful-typescript-codegen": "^3.2.3",
     "next": "12.2.4",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reactstrap": "^9.1.3"
   },
   "devDependencies": {
     "@types/node": "18.6.4",
